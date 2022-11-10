@@ -8,13 +8,8 @@ body{
     font-weight: 400;
     font-size: 18px;
     line-height: 140%;
-    color:black;
+    background: linear-gradient(0deg, rgb(34, 142, 192), rgb(64, 148, 171) 40%, rgb(169, 226, 245));
     font-family: 'Dancing Script';
-}
-
-a{
-    text-decoration: none;
-    color: inherit;
 }
 
 .container{
@@ -24,14 +19,18 @@ a{
 }
 
 .header{
+    background-color: linear-gradient(0deg, blue, green 40%, red);
+
+}
+
+.main{
     background-image: url(../images/bg.jpg);
     background-repeat: no-repeat;
     background-position: top center;
-    background-color: rgb(90, 191, 231);
     height: 100vh;
 }
 
-.title {
+.intro__title {
     font-weight: 700;
     font-size: 84px;
     line-height: 50px;
@@ -39,29 +38,20 @@ a{
     padding-left: 60px;
     transform: rotate(-15deg);
     text-shadow: -4px -4px 0px rgb(90, 191, 231);
-    
-    
-    
-
 }
 
-.subtitle {
+.intro__subtitle {
     font-weight: 700;
     font-size: 84px;
     line-height: 200px;
     padding-left: 30px;
     transform: rotate(-15deg);
     text-shadow: -4px -4px 0px rgb(90, 191, 231);
-
 }
 
-.date{
+.intro__date{
     font-weight: 700;
     font-size: 54px;
     margin-top: 392px;
     padding-left: 100px;
-    
-
-   
-
 }
