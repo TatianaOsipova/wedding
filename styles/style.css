@@ -18,7 +18,7 @@ a{
 }
 
 .container{
-    max-width: 1160px;
+    max-width: 1430px;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -35,8 +35,12 @@ a{
     font-weight: 700;
     font-size: 84px;
     line-height: 50px;
-    padding-top: 450px;
-    padding-left: 80px;
+    padding-top: 200px;
+    padding-left: 60px;
+    transform: rotate(-15deg);
+    text-shadow: -4px -4px 0px rgb(0, 183, 255);
+    
+    
 
 }
 
@@ -44,14 +48,18 @@ a{
     font-weight: 700;
     font-size: 84px;
     line-height: 200px;
-    padding-right: 50px;
+    padding-left: 30px;
+    transform: rotate(-15deg);
+    text-shadow: -4px -4px 0px rgb(0, 183, 255);
 
 }
 
 .date{
     font-weight: 700;
-    font-size: 64px;
-    
+    font-size: 54px;
+    margin-top: 392px;
+    padding-left: 100px;
+
    
 
 }
