@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: black;
+    font-family: 'Dancing Script';
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header{
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: rgb(0, 183, 255);
+    height: 100vh;
+
+}
