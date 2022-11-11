@@ -12,6 +12,8 @@ body{
     font-family: 'Dancing Script';
 }
 
+/* header style start */
+
 .container{
     max-width: 1430px;
     margin: 0 auto;
@@ -55,3 +57,13 @@ body{
     margin-top: 392px;
     padding-left: 100px;
 }
+
+/* header style end */
+
+/* .slider{
+    background-image: url(../images/1.png);
+
+
+
+
+} */
