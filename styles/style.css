@@ -25,6 +25,7 @@ body{
     background-repeat: no-repeat;
     background-position: top center;
     height: 100vh;
+    margin-bottom: 100px;
 }
 
 .date{
@@ -41,12 +42,18 @@ body{
 .intro__title {
     font-weight: 700;
     font-size: 84px;
-    /* line-height: 50px;
-    padding-top: 200px;
-    padding-left: 60px;
-    transform: rotate(-15deg);
-    text-shadow: -4px -4px 0px rgb(90, 191, 231); */
+    text-align: center;    
+    text-shadow: -4px -4px 0px rgb(238, 221, 204);
 }
+
+.intro__subtitle {
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 200px;
+    text-align: center;    
+    text-shadow: -4px -4px 0px rgb(238, 221, 204); 
+}
+
 
 
 
@@ -56,18 +63,7 @@ body{
 
 
 
-/* .intro__subtitle {
-    font-weight: 700;
-    font-size: 84px;
-    line-height: 200px;
-    padding-left: 30px;
-    transform: rotate(-15deg);
-    text-shadow: -4px -4px 0px rgb(90, 191, 231);
-} */
 
-
-
-/* header style end */
 
 
 
