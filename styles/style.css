@@ -18,6 +18,7 @@ body{
     max-width: 1230px;
     margin: 0 auto;
     padding: 0 10px;
+    position: relative;    
 }
 
 .main{
@@ -40,6 +41,10 @@ body{
 
 /* section style start */
 
+/* .name{
+    margin-bottom: 100px;
+} */
+
 .intro__title {
     font-weight: 700;
     font-size: 84px;
@@ -57,113 +62,26 @@ body{
 
 /* section style end */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .carousel{
     position: absolute;
     top: 50%;
-    left: 50%;
-    /* width: 100%; */
-    /* text-align: center; */
-    /* transform: translate(-50% -50%); */
-}
-
-.item-container{
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-}
-
-
-
-.item{
-    display: none;
-    position: relative;
-    margin: 0 auto;
-    animation: 0.5s ease-in-out;
-}
-
-.active,
-.next {
-    display: block
-}
-
-.next{
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
-
-.control{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 15%;
-    cursor: pointer;
-}
-
-.control.left{
-    left: 0;
-    right: auto;
-}
-
-.control.right{
-    left: auto;
-    right: 0;
-}
-
-.arrow{
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 84px;
-}
-
-.arrow.right{
-    right: 50%;
-}
-
-.to-left{
-    animation-name: left;
-}
-
-.to-right{
-    animation-name: right;
-    animation-direction: reverse;
-}
-
-.from-left{
-    animation-name: left ;
-    animation-direction: reverse;
-
-}
-
-.from-right{
-    animation-name: right;
-}
-
-
-
-
-
-
-
-
-
-
-
-/* .carousel{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    text-align: center;
-    transform: translate(-50% -50%);
-} */
-
-/* .item-container{
-    position: relative;
-    width: 100%;
-    overflow: hidden;
+    left: 50%; 
+    width: 100%;    
+    transform: translateY(-50% -50%);    
 }
 
 .item{
@@ -171,6 +89,7 @@ body{
     position: relative;
     margin: 0 auto;
     animation: 0.5s ease-in-out;
+    margin-left: 120px;
 }
 
 .active,
@@ -211,9 +130,13 @@ body{
 .arrow{
     display: inline-block;
     position: absolute;
-    top: 50%;
+    top: 60%;
     transform: translateY(-50%);
     font-size: 84px;
+}
+
+.arrow.left {
+    left: 50%;
 }
 
 .arrow.right{
@@ -255,7 +178,7 @@ body{
     to{
         left: 0;
     }
-} */
+}
 
 
 
@@ -263,7 +186,7 @@ body{
 
 
 
-@media (max-width: 960px) {
+/* @media (max-width: 960px) {
     .description {
         flex-direction: column;
         align-items: center;
@@ -275,7 +198,7 @@ body{
     .arrow {
         display: none;
     }
-}
+} */
 
 
 
