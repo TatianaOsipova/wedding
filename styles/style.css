@@ -62,19 +62,7 @@ body{
 
 /* section style end */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* section name style start */
 
 .carousel{
     position: absolute;
@@ -105,8 +93,7 @@ body{
 
 .description{
     margin: 30px 20%;
-    font-size: 32px;
-    justify-content: space-between;
+    
 }
 
 .control{
@@ -133,6 +120,7 @@ body{
     top: 60%;
     transform: translateY(-50%);
     font-size: 84px;
+    color: rgb(77, 76, 76);
 }
 
 .arrow.left {
@@ -162,11 +150,19 @@ body{
     animation-name: right;
 }
 
+/* section name style end */
+
+/* footer style start */
+
+
+
+/* footer style end */
+
 @keyframes left{
     from{
         left: 0;
     }
-    to{
+    to{ 
         left: -100%;
     }
 }
