@@ -37,17 +37,26 @@ body{
 
 /* header style end */
 
-/* .intro__title {
+/* section style start */
+.intro__title {
     font-weight: 700;
     font-size: 84px;
-    line-height: 50px;
+    /* line-height: 50px;
     padding-top: 200px;
     padding-left: 60px;
     transform: rotate(-15deg);
-    text-shadow: -4px -4px 0px rgb(90, 191, 231);
+    text-shadow: -4px -4px 0px rgb(90, 191, 231); */
 }
 
-.intro__subtitle {
+
+
+/* section style end */
+
+
+
+
+
+/* .intro__subtitle {
     font-weight: 700;
     font-size: 84px;
     line-height: 200px;
