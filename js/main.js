@@ -1,31 +1,48 @@
-$(function(){
-    $('.popup__link').magnificPopup({
-		disableOn: 700,
-		type: 'iframe',
-		mainClass: 'mfp-fade',
-		removalDelay: 160,
-		preloader: false,
-		fixedContentPos: false
-	});
+// let items = document.querySelectorAll('.item');
+// let currentItem = 0;
+// let isEnabled = true;
 
-	$('.gallery__slider').slick({
-		prevArrow: '<button type="button" class="slick-btn slick-prev"><img src="../safari/images/arrow-left.svg" alt="arrow-left"></button>',
-		nextArrow: '<button type="button" class="slick-btn slick-next"><img src="../safari/images/arrow-right.svg" alt="arrow-right"></button>',
-	});
+// function changeCurrentItem(n) {
+// 	currentItem = (n + items.length) % items.length;
+// }
 
-	$('.gallery__item-inner').magnificPopup({
-		delegate: 'a',
-		type: 'image',
-		tLoading: 'Loading image #%curr%...',
-		mainClass: 'mfp-img-mobile',
-		gallery: {
-			enabled: true,
-			navigateByImgClick: true,
-			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-		},		
-	});
+// function hideItem(direction) {
+// 	isEnabled = false;
+// 	items[currentItem].classList.add(direction);
+// 	items[currentItem].addEventListener('animationend', function(){
+// 		this.classList.remove('active', direction);
+// 	});
+// }
 
-	$('.menu__btn').on('click', function(){
-		$('.menu__list').toggleClass('menu__list--active');
-	});
-});
+// function showItem(direction) {
+// 	items[currentItem].classList.add('next', direction);
+// 	items[currentItem].addEventListener('animationend', function(){
+// 		this.classList.remove('next', direction);
+// 		this.classList.add('active');
+// 		isEnabled = true;
+// 	});
+// }
+
+// function previousItem(n) {
+// 	hideItem('to-right');
+// 	changeCurrentItem(n - 1);
+// 	showItem('from-left');
+// }
+
+// function nextItem(n) {
+// 	hideItem('to-left');
+// 	changeCurrentItem(n - 1);
+// 	showItem('from-right');
+// }
+
+// document.querySelector('.control.left').addEventListener('click', function(){
+// 	if (isEnabled) {
+// 		previousItem(currentItem);
+// 	}
+// });
+
+// document.querySelector('.control.right').addEventListener('click', function(){
+// 	if (isEnabled) {
+// 		nextItem(currentItem);
+// 	}
+// });

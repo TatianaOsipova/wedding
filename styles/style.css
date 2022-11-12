@@ -8,31 +8,36 @@ body{
     font-weight: 400;
     font-size: 18px;
     line-height: 140%;
-    background: linear-gradient(0deg, rgb(34, 142, 192), rgb(64, 148, 171) 40%, rgb(169, 226, 245));
+    background: linear-gradient(0deg, rgb(72, 70, 78), rgb(73, 172, 161) 40%, rgb(228, 135, 180));
     font-family: 'Dancing Script';
 }
 
 /* header style start */
 
-.item-container{
+.container{
     max-width: 1230px;
     margin: 0 auto;
-    /* padding: 0 10px; */
-}
-
-/* .header{
-    background-color: linear-gradient(0deg, blue, green 40%, red);
-
+    padding: 0 10px;
 }
 
 .main{
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/bg.png);
     background-repeat: no-repeat;
     background-position: top center;
     height: 100vh;
 }
 
-.intro__title {
+.date{
+    font-weight: 700;
+    font-size: 54px;
+    text-align: end;
+    padding-top: 800px;
+    color: rgb(238, 221, 204);
+} 
+
+/* header style end */
+
+/* .intro__title {
     font-weight: 700;
     font-size: 84px;
     line-height: 50px;
@@ -49,18 +54,15 @@ body{
     padding-left: 30px;
     transform: rotate(-15deg);
     text-shadow: -4px -4px 0px rgb(90, 191, 231);
-}
-
-.intro__date{
-    font-weight: 700;
-    font-size: 54px;
-    margin-top: 392px;
-    padding-left: 100px;
 } */
+
+
 
 /* header style end */
 
-.carousel{
+
+
+/* .carousel{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -164,7 +166,7 @@ body{
     to{
         left: 0;
     }
-}
+} */
 
 
 
