@@ -20,7 +20,6 @@ body{
     max-width: 1230px;
     margin: 0 auto;
     padding: 0 10px;
-    /* position: relative;         */
 }
 
 .header{
@@ -188,13 +187,13 @@ body{
 
 
 
-.footer__img{ 
+/* .footer__img{ 
     transform: translateY(105%);    
     width: 100%;
     height: 920px; 
     background-image: url(../images/146546466.jpg);  
     background-repeat: no-repeat;    
-    background-position: bottom center;
+    background-position: bottom center; */
     /* background-size: cover; */
     /* max-width: 1230px;
     margin: 0 auto;
