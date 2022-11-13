@@ -8,8 +8,11 @@ body{
     font-weight: 400;
     font-size: 18px;
     line-height: 140%;
-    background: linear-gradient(0deg, rgb(72, 70, 78), rgb(73, 172, 161) 40%, rgb(228, 135, 180));
+    background: #fff;
     font-family: 'Dancing Script';
+    /* background-image: url(../images/wallpaperflare.com_wallpaper\ \(1\).jpg);
+    background-repeat: no-repeat; */
+    /* background-size: 100%; */
 }
 
 /* header style start */
@@ -18,10 +21,10 @@ body{
     max-width: 1230px;
     margin: 0 auto;
     padding: 0 10px;
-    position: relative;    
+    /* position: relative;         */
 }
 
-.main{
+.header{
     background-image: url(../images/bg.png);
     background-repeat: no-repeat;
     background-position: top center;
@@ -45,11 +48,15 @@ body{
     margin-bottom: 100px;
 } */
 
+.intro{
+    padding-top: 200px;
+}
+
 .intro__title {
     font-weight: 700;
     font-size: 84px;
     text-align: center;    
-    text-shadow: -4px -4px 0px rgb(238, 221, 204);
+    text-shadow: -4px -4px 0px rgb(238, 221, 204);    
 }
 
 .intro__subtitle {
@@ -64,20 +71,167 @@ body{
 
 /* section name style start */
 
-.carousel{
+.container-slider{
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 10px;
+    position: relative;
+}
+
+
+.carousel{   
     position: absolute;
     top: 50%;
-    left: 50%; 
-    width: 100%;    
-    transform: translateY(-50% -50%);    
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateX(-50%);      
 }
+
+/* .item-container{
+    position: relative;      
+    width: 100%;
+    overflow: hidden;
+} */
 
 .item{
     display: none;
     position: relative;
     margin: 0 auto;
     animation: 0.5s ease-in-out;
+    transform: translateY(25%);
+    padding-bottom: 200px;
+}
+
+.active,
+.next {
+    display: block
+}
+
+.next{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.control{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 15%;
+    cursor: pointer;
+}
+
+.control.left{
+    left: 0;
+    right: auto;
+}
+
+.control.right{
+    left: auto;
+    right: 0;
+}
+
+.arrow{
+    display: inline-block;
+    position: absolute;
+    top: 65%;
+    transform: translateY(-65%);
+    font-size: 84px;
+}
+
+.arrow.right{
+    right: 50%;
+}
+
+.to-left{
+    animation-name: left;
+}
+
+.to-right{
+    animation-name: right;
+    animation-direction: reverse;
+}
+
+.from-left{
+    animation-name: left ;
+    animation-direction: reverse;
+
+}
+
+.from-right{
+    animation-name: right;
+}
+
+@keyframes left{
+    from{
+        left: 0;
+    }
+    to{
+        left: -100%;
+    }
+}
+
+@keyframes right{
+    from{
+        left: 100%;
+    }
+    to{
+        left: 0;
+    }
+}
+
+/* .image{
+    background: url(../images/footer-bg.jpg);
+} */
+
+/* footer style start */
+
+
+
+.footer__img{ 
+    transform: translateY(120%);    
+    width: 100%;
+    height: 920px; 
+    background-image: url(../images/wallpaperflare.com_wallpaper.jpg);  
+    background-repeat: no-repeat;    
+    background-position: bottom right;
+    /* background-size: cover; */
+    /* max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 10px;
+    position: relative; 
+    background-color:aquamarine;
+    background-image: url(../images/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100vh;
+    height: 100%; */
+}
+
+/* footer style end */
+
+
+
+
+
+
+
+/* .carousel{
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    width: 100%;    
+    transform: translateY(-50% -50%);    
+} */
+
+/* .item{
+    display: none;
+    position: relative;
+    margin: 0 auto;
+    animation: 0.5s ease-in-out;
     margin-left: 120px;
+    overflow-y: hidden;
 }
 
 .active,
@@ -117,9 +271,9 @@ body{
 .arrow{
     display: inline-block;
     position: absolute;
-    top: 60%;
-    transform: translateY(-50%);
-    font-size: 84px;
+    top: 60%; */
+    /* transform: translateY(-50%); */
+    /* font-size: 84px;
     color: rgb(77, 76, 76);
 }
 
@@ -148,7 +302,7 @@ body{
 
 .from-right{
     animation-name: right;
-}
+} */
 
 /* section name style end */
 
@@ -160,7 +314,7 @@ body{
 
 /* footer style end */
 
-@keyframes left{
+/* @keyframes left{
     from{
         left: 0;
     }
@@ -176,7 +330,7 @@ body{
     to{
         left: 0;
     }
-}
+} */
 
 
 
