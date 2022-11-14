@@ -59,29 +59,29 @@ body {
 
 /* section main style start */
 
-.container-slider{
+.container-slider {
     max-width: 1230px;
     margin: 0 auto;
     padding: 0 10px;
     position: relative;
 }
 
-.carousel{   
+.carousel {
     position: absolute;
     top: 50%;
     left: 50%;
     width: 100%;
     text-align: center;
-    transform: translateX(-50%);      
+    transform: translateX(-50%);
 }
 
-.item{
+.item {
     display: none;
     position: relative;
     margin: 0 auto;
     animation: 0.5s ease-in-out;
     transform: translateY(25%);
-    padding-bottom: 150px;    
+    padding-bottom: 150px;
 }
 
 .active,
@@ -89,13 +89,13 @@ body {
     display: block
 }
 
-.next{
+.next {
     position: absolute;
     top: 0;
     width: 100%;
 }
 
-.control{
+.control {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -103,64 +103,73 @@ body {
     cursor: pointer;
 }
 
-.control.left{
+.control.left {
     left: 0;
     right: auto;
 }
 
-.control.right{
+.control.right {
     left: auto;
     right: 0;
 }
 
-.arrow{
+.arrow {
     display: inline-block;
     position: absolute;
     top: 65%;
     transform: translateY(-65%);
     font-size: 84px;
-    text-shadow: -4px -4px 0px rgb(187, 94, 1); 
+    text-shadow: -4px -4px 0px rgb(187, 94, 1);
 }
 
-.arrow.right{
+.arrow.right {
     right: 50%;
 }
 
-.to-left{
+.to-left {
     animation-name: left;
 }
 
-.to-right{
+.to-right {
     animation-name: right;
     animation-direction: reverse;
 }
 
-.from-left{
-    animation-name: left ;
+.from-left {
+    animation-name: left;
     animation-direction: reverse;
 }
 
-.from-right{
+.from-right {
     animation-name: right;
 }
 
-@keyframes left{
-    from{
+@keyframes left {
+    from {
         left: 0;
     }
-    to{
+
+    to {
         left: -100%;
     }
 }
 
-@keyframes right{
-    from{
+@keyframes right {
+    from {
         left: 100%;
     }
-    to{
+
+    to {
         left: 0;
     }
-} 
+}
+
+.sign__title {
+    font-weight: 700;
+    font-size: 84px;
+    text-align: center;
+    text-shadow: -4px -4px 0px rgb(187, 94, 1);
+}
 
 /* section main style end */
 
