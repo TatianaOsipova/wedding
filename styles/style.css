@@ -10,6 +10,8 @@ body {
     line-height: 140%;
     font-family: 'Dancing Script';
     background-image: url(../images/body-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 
 /* header style start */
@@ -171,7 +173,6 @@ body {
     text-shadow: -4px -4px 0px rgb(187, 94, 1);
     margin-top: 1250px;
     margin-bottom: 100px;
-    color: black;
 }
 
 /* section main style end */
