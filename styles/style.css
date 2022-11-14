@@ -169,6 +169,8 @@ body {
     font-size: 84px;
     text-align: center;
     text-shadow: -4px -4px 0px rgb(187, 94, 1);
+    margin-top: 1500px;
+    /* transform: translateY(1000%); */
 }
 
 /* section main style end */
