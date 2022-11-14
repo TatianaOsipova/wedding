@@ -7,12 +7,9 @@
 body{
     font-weight: 400;
     font-size: 18px;
-    line-height: 140%;
-    background: #fff;
+    line-height: 140%;    
     font-family: 'Dancing Script';
-    width: 100%;
-    background: linear-gradient(0deg, #f5f5f6, rgb(202, 157, 157) 40%, rgb(170, 8, 8));
-    
+    background-image: url(../images/wallpaperflare.com_wallpaper.jpg);    
 }
 
 /* header style start */
@@ -36,7 +33,7 @@ body{
     font-size: 54px;
     text-align: end;
     padding-top: 800px;
-    color: rgb(238, 221, 204);
+    color: rgb(242, 180, 117);
 } 
 
 /* header style end */
@@ -55,7 +52,7 @@ body{
     font-weight: 700;
     font-size: 84px;
     text-align: center;    
-    text-shadow: -4px -4px 0px rgb(247, 4, 4);    
+    text-shadow: -4px -4px 0px rgb(185, 88, 185);    
 }
 
 .intro__subtitle {
@@ -63,7 +60,7 @@ body{
     font-size: 84px;
     line-height: 200px;
     text-align: center;    
-    text-shadow: -4px -4px 0px rgb(247, 4, 4); 
+    text-shadow: -4px -4px 0px rgb(185, 88, 185); 
 }
 
 /* section style end */
@@ -91,8 +88,8 @@ body{
     position: relative;
     margin: 0 auto;
     animation: 0.5s ease-in-out;
-    transform: translateY(30%);
-    bottom: 0;
+    transform: translateY(25%);
+    padding-bottom: 150px;    
 }
 
 .active,
@@ -127,9 +124,10 @@ body{
 .arrow{
     display: inline-block;
     position: absolute;
-    top: 80%;
-    transform: translateY(-80%);
+    top: 60%;
+    transform: translateY(-60%);
     font-size: 84px;
+    text-shadow: -4px -4px 0px rgb(185, 88, 185); 
 }
 
 .arrow.right{
@@ -148,7 +146,6 @@ body{
 .from-left{
     animation-name: left ;
     animation-direction: reverse;
-
 }
 
 .from-right{
@@ -178,14 +175,16 @@ body{
 
 /* footer style start */
 
-.footer__img{ 
-    transform: translateY(105%);    
+/* .footer__img{ 
+    transform: translateY(95%);    
     width: 100%;
     height: 920px; 
-    background-image: url(../images/146546466.jpg);  
+    background-image: url(../images/footer-bg.jpg);  
     background-repeat: no-repeat;    
     background-position: bottom center; 
-}
+    position: sticky;
+    z-index: -1;
+} */
 
 /* footer style end */
 
