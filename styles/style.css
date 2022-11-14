@@ -9,7 +9,7 @@ body {
     font-size: 18px;
     line-height: 140%;
     font-family: 'Dancing Script';
-    background-image: url(../images/big-bg.jpg);
+    background-image: url(../images/body-bg.jpg);
 }
 
 /* header style start */
@@ -33,7 +33,7 @@ body {
     font-size: 54px;
     text-align: end;
     padding-top: 800px;
-    color: rgb(242, 180, 117);
+    color: rgb(187, 94, 1);
 }
 
 .intro {
@@ -44,7 +44,7 @@ body {
     font-weight: 700;
     font-size: 84px;
     text-align: center;
-    text-shadow: -4px -4px 0px rgb(185, 88, 185);
+    text-shadow: -4px -4px 0px rgb(187, 94, 1);
 }
 
 .intro__subtitle {
@@ -52,7 +52,7 @@ body {
     font-size: 84px;
     line-height: 200px;
     text-align: center;
-    text-shadow: -4px -4px 0px rgb(185, 88, 185);
+    text-shadow: -4px -4px 0px rgb(187, 94, 1);
 }
 
 /* header style end */
@@ -116,10 +116,10 @@ body {
 .arrow{
     display: inline-block;
     position: absolute;
-    top: 60%;
-    transform: translateY(-60%);
+    top: 65%;
+    transform: translateY(-65%);
     font-size: 84px;
-    text-shadow: -4px -4px 0px rgb(185, 88, 185); 
+    text-shadow: -4px -4px 0px rgb(187, 94, 1); 
 }
 
 .arrow.right{
