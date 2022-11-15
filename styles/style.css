@@ -177,6 +177,8 @@ body {
 
 /* section main style end */
 
+/* adaptive start */
+
 
 @media (max-width: 960px) {
     .description {
@@ -187,7 +189,19 @@ body {
 }
 
 @media (max-width: 640px) {
+    .date {
+        font-size: 34px;        
+        padding-top: 850px;        
+    }
+
+    .sign__title{
+        font-size: 60px;
+        margin-top: 1200px;
+        margin-bottom: 50px;
+    }
     .arrow {
         display: none;
     }
 }
+
+/* adaptive end */
